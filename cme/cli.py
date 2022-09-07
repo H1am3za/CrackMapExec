@@ -8,7 +8,7 @@ from termcolor import colored
 def gen_cli_args():
 
     VERSION  = '5.3.0'
-    CODENAME = "Operation C01NS"
+    CODENAME = "Operation C01NS (NO_RDP)"
 
     p_loader =  protocol_loader()
     protocols = p_loader.get_protocols()
@@ -24,8 +24,8 @@ def gen_cli_args():
                                                 A swiss army knife for pentesting networks
                                     Forged by @byt3bl33d3r and @mpgn_x64 using the powah of dank memes
 
-                                           {colored("Exclusive release for Porchetta Industries users", "magenta")}
-                                                       {colored("https://porchetta.industries/", "magenta")}
+                                                {colored("Exclusive release for Kali Linux users", "magenta")}
+                                                     {colored("https://porchetta.industries/", "magenta")}
 
                                                    {highlight('Version', 'red')} : {highlight(VERSION)}
                                                    {highlight('Codename', 'red')}: {highlight(CODENAME)}

@@ -35,13 +35,12 @@ neo4j = "^4.1.1"
 pylnk3 = "^0.4.2"
 pypsrp = "^0.7.0"
 paramiko = "^2.7.2"
-impacket =  { git = "https://github.com/mpgn/impacket.git", branch = "master" }
+impacket =  { git = "https://github.com/SecureAuthCorp/impacket", branch = "master" }
 dsinternals = "^1.2.4"
 xmltodict = "^0.12.0"
 terminaltables = "^3.1.0"
 aioconsole = "^0.3.3"
 pywerview = "^0.3.3"
-aardwolf = "^0.0.8"
 
 
 [tool.poetry.dev-dependencies]
